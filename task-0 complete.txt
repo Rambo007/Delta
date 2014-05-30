@@ -16,6 +16,7 @@
 			position:relative;
 			margin-top:-50px;
 		}
+		</style>
 		<script>
 		var t = 0;
 
