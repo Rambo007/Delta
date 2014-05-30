@@ -33,7 +33,7 @@
     			var newx = Math.floor(xcen + (radius * Math.cos(t)));
     			var newy = Math.floor(ycen + (radius * Math.sin(t)));
 
-    			$('#box').animate({
+    			$('#ball').animate({
         			top: newx,
         			left: newy,
     			}, 1, function() {
