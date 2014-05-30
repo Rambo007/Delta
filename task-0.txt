@@ -1,0 +1,10 @@
+<html>
+	<head>
+		<title>Delta-task-0</title>
+	</head>
+	<body>
+		<div class="box">
+			<div class="ball"></div>
+		</div>
+	</body>
+</html>
