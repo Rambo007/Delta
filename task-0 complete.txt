@@ -29,8 +29,8 @@
     			var y = document.getElementById('box').top;   
     			var ycen = y / 2  // center Y position
 
-    			var newx = Math.floor(xcen + (r * Math.cos(t)));
-    			var newy = Math.floor(ycen + (r * Math.sin(t)));
+    			var newx = Math.floor(xcen + (radius * Math.cos(t)));
+    			var newy = Math.floor(ycen + (radius * Math.sin(t)));
 
     			$('#box').animate({
         			top: newx,
