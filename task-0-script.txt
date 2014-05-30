@@ -21,3 +21,22 @@ function circle(radius,angle1,angle2,steps,interval){
 	this.path = ar;
  	this.animation(interval);
 	}
+function animate(interval) {
+        if (this.active) return;
+ 	this.num = 0;
+  	this.active = 1;
+  	this.timer = setInterval(this.name + ".step()", interval);
+}
+function step() {
+  	this.moveTo(this.path[this.num].x, this.path[this.num].y);
+  	if (this.num >= this.path.length - 1) {
+    		clearInterval(this.timer);
+    		this.active = 0;
+    	if (this.statement){
+      		eval(this.statement);
+  	} 
+	else {
+    		this.num++;
+  	}
+	}
+}
